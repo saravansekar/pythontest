@@ -1,0 +1,16 @@
+#Download base Ubuntu base image
+FROM ubuntu
+
+#Run software update
+RUN apt-get update
+
+#Get latest python
+RUN apt-get install python3.6 -y
+
+#Copy shell script
+COPY print.sh /print.sh
+
+#run command
+ENTRYPOINT /print.sh
+
+
