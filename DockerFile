@@ -1,5 +1,5 @@
 #Download base Ubuntu base image
-FROM Ubuntu 
+FROM ubuntu 
 MAINTAINER Saravanan Sekar
 
 #Run software update
