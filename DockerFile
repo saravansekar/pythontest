@@ -1,5 +1,5 @@
 #Download base Ubuntu base image
-FROM centos 
+FROM Ubuntu 
 MAINTAINER Saravanan Sekar
 
 #Run software update
