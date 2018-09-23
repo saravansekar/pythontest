@@ -2,4 +2,4 @@
 
 echo "Python has been istalled"
 
-sh python -v
+sh python3

@@ -1,11 +1,12 @@
 #Download base Ubuntu base image
-FROM ubuntu
+FROM centos 
+MAINTAINER Saravanan Sekar
 
 #Run software update
 RUN apt-get update
 
 #Get latest python
-RUN apt-get install python3.6 -y
+RUN apt-get install -y python3.6
 
 #Copy shell script
 COPY print.sh /print.sh
